@@ -13,7 +13,9 @@ body {
     height: 100vh;
     padding: 20px;
 }
-
+.text-orange{
+    color: #d85b23;
+}
 .logo-img {
     width: 40px;
 }

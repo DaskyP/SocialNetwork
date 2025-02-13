@@ -263,7 +263,9 @@ body {
 .right-sidebar {
     padding: 20px;
 }
-
+.text-orange{
+    color: #d85b23;
+}
 .profile-box {
     display: flex;
     align-items: center;
