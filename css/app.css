@@ -27,7 +27,7 @@ body {
 }
 
 .login-image {
-    background-image: url('../resources/img/image.png');
+    background-image: url('../resources/img/login.png');
     background-size: cover;
     background-position: center;
     height: 100vh;

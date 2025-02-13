@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - InstaReply</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="icon" href="../resources/svg/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="header d-flex justify-content-end align-items-center p-3">
+        <img src="../resources/svg/favicon.svg" alt="InstaReply Logo" class="logo">
+        <span class="ms-2 fs-4 fw-bold text-orange">InstaReply</span>
+    </div>
+
+    <div class="container-fluid vh-100 d-flex flex-column">
+        <div class="row flex-grow-1">
+            <div class="col-md-6 login-image"></div>
+            
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <div class="register-form px-5">
+                    <h1 class="fw-bold text-start text-orange">Regístrate</h1>
+                    <p class="text-muted text-start fs-5 mt-4">¡Únete y descubre qué están haciendo tus amigos ahora!</p>
+
+                    <button class="btn btn-warning w-100 d-flex align-items-center justify-content-center gap-2">
+                        <img src="/resources/svg/google.svg" alt="Google Logo" class="google-logo">
+                        <span>Continúa con Google</span>
+                    </button>
+
+                    <p class="text-muted my-3 text-center">- o regístrate con Email -</p>
+
+                    <form>
+                        <div class="mb-3 text-start">
+                            <label for="username" class="form-label fw-bold">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Escribe tu usuario">
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label for="email" class="form-label fw-bold">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Escribe tu email">
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label for="password" class="form-label fw-bold">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Escribe tu contraseña">
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label for="confirmPassword" class="form-label fw-bold">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirma tu contraseña">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3 text-start">
+                                <label for="firstName" class="form-label fw-bold">Nombre</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Escribe tu nombre">
+                            </div>
+                            <div class="col-md-6 mb-3 text-start">
+                                <label for="lastName" class="form-label fw-bold">Apellidos</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Escribe tus apellidos">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3 text-start">
+                                <label for="gender" class="form-label fw-bold">Género</label>
+                                <select class="form-select" id="gender">
+                                    <option selected>Selecciona tu género</option>
+                                    <option value="male">Masculino</option>
+                                    <option value="female">Femenino</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3 text-start">
+                                <label for="birthdate" class="form-label fw-bold">Fecha de nacimiento</label>
+                                <input type="date" class="form-control" id="birthdate">
+                            </div>
+                        </div>
+
+                        <div class="form-check text-start">
+                            <input type="checkbox" class="form-check-input" id="terms">
+                            <label class="form-check-label" for="terms">Acepto los términos y condiciones</label>
+                        </div>      
+
+                        <button type="submit" class="btn btn-primary w-100 mt-3">Crear cuenta</button>
+                    </form>
+                </div>
+                
+                <div class="text-center mt-auto mb-3">
+                    <span class="text-muted">¿Ya tienes una cuenta?</span>
+                    <a href="../html/index.html" class="text-orange fw-bold text-decoration-none">Inicia sesión aquí</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
