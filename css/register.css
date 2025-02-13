@@ -29,7 +29,7 @@ body {
 }
 
 .login-image {
-    background-image: url('../resources/img/register.png');
+    background-image: url('/resources/img/image.png');
     background-size: cover;
     background-position: center;
     height: 100vh;

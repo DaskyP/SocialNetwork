@@ -1,0 +1,129 @@
+:root {
+    --primary-color: #FEFFEF;
+    --accent-color: #d85b23;
+    --text-color: #333;
+    --active-bg: #fcefd8;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.navbar .btn-orange {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.navbar .btn-orange:hover {
+    background-color: #b44b1b;
+}
+
+.hero {
+    height: 30vh;
+    background: linear-gradient(to right, #FFD9BC, #fcefd8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--text-color);
+}
+.post-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.post-card:hover {
+    transform: scale(1.03);
+}
+
+.post-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.post-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.like-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.like-icon:hover {
+    color: red;
+}
+
+.feature-icon {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.gallery-img {
+    border-radius: 12px;
+}
+
+.blockquote {
+    font-style: italic;
+}
+#testimonials {
+    background: #FEFFEF;
+    border-radius: 12px;
+    padding: 40px;
+}
+#carouselExampleCaptions {
+    max-width: 300px;
+    margin: 0 auto; 
+}
+
+.carousel-caption h5 {
+    font-size: 1rem; 
+    color: #1b1b1b;
+    font: bold;
+}
+
+.carousel-caption p {
+    font-size: 0.9rem; 
+    color: #333;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px; 
+    height: 30px;
+    background-color: #b44b1b;
+}
+
+#testimonials {
+    background: #FEFFEF;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+}
