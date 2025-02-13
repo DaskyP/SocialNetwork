@@ -20,11 +20,12 @@ body {
 
 .hero {
     height: 30vh;
-    background: linear-gradient(to right, #FFD9BC, #fcefd8);
+    background: #fcefd8;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .hero h1 {
@@ -60,11 +61,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
-.likes {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.carousel-caption h5,.carousel-caption p {
+    color: #24301e !important;
 }
 
 .like-icon {
