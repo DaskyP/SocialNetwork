@@ -12,7 +12,13 @@ body {
     align-items: center;
     background-color: #f8f9fa;
 }
-
+button {
+    cursor: pointer;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
 .header {
     position: absolute;
     top: 0;
